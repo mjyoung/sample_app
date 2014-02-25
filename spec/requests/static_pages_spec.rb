@@ -42,7 +42,7 @@ describe "Static pages" do
 
     it "should have the right title" do
       visit '/static_pages/about'
-      expect(page).to have_title('RoR Sample App | About Us')
+      expect(page).to have_title('RoR Sample App | About')
     end
   end
 end
