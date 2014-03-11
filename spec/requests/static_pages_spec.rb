@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
 
 describe "Static pages" do
-  subject {page}
+  subject { page }
 
   describe "Home page" do
     before { visit root_path }
