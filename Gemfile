@@ -6,6 +6,9 @@ gem 'bootstrap-sass', '~> 3.1'
 gem 'hirb'
 gem 'better_errors'
 
+# Use ActiveModel has_secure_password
+gem 'bcrypt-ruby'
+
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
@@ -41,8 +44,7 @@ group :production do
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.1.2'
+
 
 # Use unicorn as the app server
 # gem 'unicorn'
